@@ -1,0 +1,32 @@
+/*Reset de estilos por defecto*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding:15px 0;
+}
+.headerNavegacion{
+    display:flex;
+    justify-content: flex-end;
+}
+headerLista{
+    display: flex;
+    list-style: none;
+}
+.buttonAcceder{
+    background: #0037a5;
+    color: #fff;
+    padding:
+    border-radius: 5px;
+}
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
